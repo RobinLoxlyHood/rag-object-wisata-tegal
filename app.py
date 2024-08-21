@@ -54,7 +54,7 @@ def handle_query():
             st.write("Mari bertanya")
 
 def main():
-    st.title("Wisata Chatbot AI!🚀")
+    st.title("Wisata Chatbot AI! with LLAMA3🚀")
     st.write("Tanyakan apa saja kepada Chatbot kami.")
     st.markdown("")
 

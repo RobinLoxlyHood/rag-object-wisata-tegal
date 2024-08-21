@@ -9,7 +9,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 
 def initialize_llm(groq_api_key=None):
-    llm = ChatGroq(temperature=0, model_name="llama3-70b-8192", groq_api_key=groq_api_key)
+    llm = ChatGroq(temperature=0, model_name="llama3-8b-8192", groq_api_key=groq_api_key)
     return llm
 
 def initialize_embeddings():
